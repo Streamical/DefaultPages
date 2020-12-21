@@ -1,0 +1,13 @@
+@import "variables";
+@import "normalize";
+@import "fonts";
+@import "header";
+@import "content";
+@import "footer";
+
+.go-page-container {
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  min-height:100vh;
+}
